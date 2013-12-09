@@ -10,4 +10,6 @@
 
 @interface GameTestViewController : UIViewController
 
+@property (nonatomic, strong) NSString *string;
+
 @end
