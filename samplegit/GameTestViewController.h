@@ -8,11 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameTestViewController : UIViewController
+@interface GameTestViewController : UIViewController <AVAudioPlayerDelegate, AVAudioRecorderDelegate>
 
-@property (nonatomic, strong) NSString *string;
 
-@property (nonatomic, strong) NSNumber *numer;
+@property (weak, nonatomic) IBOutlet UIButton *recordPauseButton;
+@property (weak, nonatomic) IBOutlet UIButton *stopButton;
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+
+
+- (IBAction)recordPauseTapped:(UIButton *)sender;
+- (IBAction)stopTapped:(UIButton *)sender;
+- (IBAction)playTapped:(UIButton *)sender;
+
+
 
 
 @end

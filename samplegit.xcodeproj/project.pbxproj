@@ -21,6 +21,7 @@
 		20ABFD5A1856379D008E1DE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ABFD3C1856379D008E1DE7 /* UIKit.framework */; };
 		20ABFD621856379D008E1DE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20ABFD601856379D008E1DE7 /* InfoPlist.strings */; };
 		20ABFD641856379D008E1DE7 /* samplegitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ABFD631856379D008E1DE7 /* samplegitTests.m */; };
+		20ABFD6E18566851008E1DE7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ABFD6D18566851008E1DE7 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		20ABFD5F1856379D008E1DE7 /* samplegitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "samplegitTests-Info.plist"; sourceTree = "<group>"; };
 		20ABFD611856379D008E1DE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20ABFD631856379D008E1DE7 /* samplegitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = samplegitTests.m; sourceTree = "<group>"; };
+		20ABFD6D18566851008E1DE7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ABFD6E18566851008E1DE7 /* AVFoundation.framework in Frameworks */,
 				20ABFD3B1856379D008E1DE7 /* CoreGraphics.framework in Frameworks */,
 				20ABFD3D1856379D008E1DE7 /* UIKit.framework in Frameworks */,
 				20ABFD391856379D008E1DE7 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		20ABFD371856379D008E1DE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20ABFD6D18566851008E1DE7 /* AVFoundation.framework */,
 				20ABFD381856379D008E1DE7 /* Foundation.framework */,
 				20ABFD3A1856379D008E1DE7 /* CoreGraphics.framework */,
 				20ABFD3C1856379D008E1DE7 /* UIKit.framework */,
@@ -461,6 +465,7 @@
 				20ABFD691856379D008E1DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20ABFD6A1856379D008E1DE7 /* Build configuration list for PBXNativeTarget "samplegitTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				20ABFD6C1856379D008E1DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
