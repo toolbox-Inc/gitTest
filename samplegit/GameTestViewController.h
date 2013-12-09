@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) NSString *string;
 
+@property (nonatomic, strong) NSNumber *numer;
+
 @end
